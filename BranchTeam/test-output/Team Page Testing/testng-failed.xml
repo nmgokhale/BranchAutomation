@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" name="Failed suite [Team Page Testing]">
+  <listeners>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test name="Validating Employee Description(failed)">
+    <classes>
+      <class name="Branch.ValidateAlphabeticalOrder">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Branch.ValidateAlphabeticalOrder -->
+      <class name="Branch.ValidateNumberOfEmployees">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Branch.ValidateNumberOfEmployees -->
+      <class name="Branch.ValidateEmployeeDescription">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+          <include name="validateEmployeeDescriptionIsNotNull"/>
+        </methods>
+      </class> <!-- Branch.ValidateEmployeeDescription -->
+      <class name="Branch.ValidateEmployeeDisplayPictures">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Branch.ValidateEmployeeDisplayPictures -->
+      <class name="Branch.ValidateEmployeeDepartmentNames">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Branch.ValidateEmployeeDepartmentNames -->
+      <class name="Branch.ValidateEmployeeDepartmentsDataConsistency">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Branch.ValidateEmployeeDepartmentsDataConsistency -->
+      <class name="Branch.ValidateEmployeeNames">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Branch.ValidateEmployeeNames -->
+    </classes>
+  </test> <!-- Validating Employee Description(failed) -->
+  <test name="Validating Alphabetical Order(failed)">
+    <classes>
+      <class name="Branch.ValidateAlphabeticalOrder">
+        <methods>
+          <include name="validateAllAlphabeticalOrder"/>
+          <include name="validatePartnerGrowthAlphabeticalOrder"/>
+          <include name="teardown"/>
+          <include name="validateMarketingAlphabeticalOrder"/>
+          <include name="initialize"/>
+          <include name="validateEngineeringAlphabeticalOrder"/>
+        </methods>
+      </class> <!-- Branch.ValidateAlphabeticalOrder -->
+      <class name="Branch.ValidateNumberOfEmployees">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Branch.ValidateNumberOfEmployees -->
+      <class name="Branch.ValidateEmployeeDisplayPictures">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Branch.ValidateEmployeeDisplayPictures -->
+      <class name="Branch.ValidateEmployeeDescription">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Branch.ValidateEmployeeDescription -->
+      <class name="Branch.ValidateEmployeeDepartmentNames">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Branch.ValidateEmployeeDepartmentNames -->
+      <class name="Branch.ValidateEmployeeDepartmentsDataConsistency">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Branch.ValidateEmployeeDepartmentsDataConsistency -->
+      <class name="Branch.ValidateEmployeeNames">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Branch.ValidateEmployeeNames -->
+    </classes>
+  </test> <!-- Validating Alphabetical Order(failed) -->
+  <test name="Validating Number of Employees(failed)">
+    <classes>
+      <class name="Branch.ValidateAlphabeticalOrder">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Branch.ValidateAlphabeticalOrder -->
+      <class name="Branch.ValidateNumberOfEmployees">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+          <include name="validateNoOfEmployees"/>
+        </methods>
+      </class> <!-- Branch.ValidateNumberOfEmployees -->
+      <class name="Branch.ValidateEmployeeDisplayPictures">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Branch.ValidateEmployeeDisplayPictures -->
+      <class name="Branch.ValidateEmployeeDescription">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Branch.ValidateEmployeeDescription -->
+      <class name="Branch.ValidateEmployeeDepartmentNames">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Branch.ValidateEmployeeDepartmentNames -->
+      <class name="Branch.ValidateEmployeeDepartmentsDataConsistency">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Branch.ValidateEmployeeDepartmentsDataConsistency -->
+      <class name="Branch.ValidateEmployeeNames">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Branch.ValidateEmployeeNames -->
+    </classes>
+  </test> <!-- Validating Number of Employees(failed) -->
+  <test name="Validating Employee Departments in different tabs(failed)">
+    <classes>
+      <class name="Branch.ValidateAlphabeticalOrder">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Branch.ValidateAlphabeticalOrder -->
+      <class name="Branch.ValidateNumberOfEmployees">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Branch.ValidateNumberOfEmployees -->
+      <class name="Branch.ValidateEmployeeDisplayPictures">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Branch.ValidateEmployeeDisplayPictures -->
+      <class name="Branch.ValidateEmployeeDescription">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Branch.ValidateEmployeeDescription -->
+      <class name="Branch.ValidateEmployeeDepartmentNames">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Branch.ValidateEmployeeDepartmentNames -->
+      <class name="Branch.ValidateEmployeeDepartmentsDataConsistency">
+        <methods>
+          <include name="validateDataEmployeeDepartmentsConsistency"/>
+          <include name="validatePartnerGrowthEmployeeDepartmentsConsistency"/>
+          <include name="validateRecruitingEmployeeDepartmentsConsistency"/>
+          <include name="initialize"/>
+          <include name="validateProductEmployeeDepartmentsConsistency"/>
+          <include name="teardown"/>
+          <include name="validateEngineeringEmployeeDepartmentsConsistency"/>
+          <include name="validateMarketingEmployeeDepartmentsConsistency"/>
+          <include name="validateOperationsEmployeeDepartmentsConsistency"/>
+        </methods>
+      </class> <!-- Branch.ValidateEmployeeDepartmentsDataConsistency -->
+      <class name="Branch.ValidateEmployeeNames">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Branch.ValidateEmployeeNames -->
+    </classes>
+  </test> <!-- Validating Employee Departments in different tabs(failed) -->
+  <test name="Validating Employee Department Names(failed)">
+    <classes>
+      <class name="Branch.ValidateAlphabeticalOrder">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Branch.ValidateAlphabeticalOrder -->
+      <class name="Branch.ValidateNumberOfEmployees">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Branch.ValidateNumberOfEmployees -->
+      <class name="Branch.ValidateEmployeeDisplayPictures">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Branch.ValidateEmployeeDisplayPictures -->
+      <class name="Branch.ValidateEmployeeDescription">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Branch.ValidateEmployeeDescription -->
+      <class name="Branch.ValidateEmployeeDepartmentNames">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+          <include name="validateEngineeringDepartmentNames"/>
+          <include name="validatePartnerGrowthDepartmentNames"/>
+          <include name="validateMarketingDepartmentNames"/>
+        </methods>
+      </class> <!-- Branch.ValidateEmployeeDepartmentNames -->
+      <class name="Branch.ValidateEmployeeDepartmentsDataConsistency">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Branch.ValidateEmployeeDepartmentsDataConsistency -->
+      <class name="Branch.ValidateEmployeeNames">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Branch.ValidateEmployeeNames -->
+    </classes>
+  </test> <!-- Validating Employee Department Names(failed) -->
+</suite> <!-- Failed suite [Team Page Testing] -->

@@ -1,0 +1,293 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Validating Employee Display Pictures</td><td class="numi">8</td><td class="numi">8</td><td class="numi">0</td><td class="numi">0</td><td class="numi">16.5 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">Validating Employee Description</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">15.3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Validating Alphabetical Order</td><td class="numi">4</td><td class="numi">4</td><td class="numi">0</td><td class="numi_attn">4</td><td class="numi">15.1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">Validating Employee Names</td><td class="numi">7</td><td class="numi">7</td><td class="numi">0</td><td class="numi">0</td><td class="numi">13.2 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Validating Number of Employees</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">7.8 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">Validating Employee Departments in different tabs</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">7</td><td class="numi">7.9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Validating Employee Department Names</td><td class="numi">4</td><td class="numi">4</td><td class="numi">0</td><td class="numi_attn">3</td><td class="numi">10.9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="total"><td>Total</td>
+<td class="numi">23</td><td class="numi">23</td><td class="numi">0</td><td class="numi_attn">16</td><td class="numi">87.1 seconds</td><td colspan="2">&nbsp;</td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Validating Employee Display Pictures &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="8">Branch.ValidateEmployeeDisplayPictures</td><td><a href="#m1"><b>validateAllEmployeesDisplayPictures</b>  </a></td><td class="numi">1</td><td>1537218766476</td><td class="numi">1893</td></tr><tr class="passedodd"><td><a href="#m2"><b>validateDataEmployeesDisplayPictures</b>  </a></td><td class="numi">1</td><td>1537218768371</td><td class="numi">201</td></tr><tr class="passedodd"><td><a href="#m3"><b>validateEngineeringEmployeesDisplayPictures</b>  </a></td><td class="numi">1</td><td>1537218768573</td><td class="numi">647</td></tr><tr class="passedodd"><td><a href="#m4"><b>validateMarketingEmployeesDisplayPictures</b>  </a></td><td class="numi">1</td><td>1537218769222</td><td class="numi">232</td></tr><tr class="passedodd"><td><a href="#m5"><b>validateOperationsEmployeesDisplayPictures</b>  </a></td><td class="numi">1</td><td>1537218769455</td><td class="numi">125</td></tr><tr class="passedodd"><td><a href="#m6"><b>validatePartnerGrowthEmployeesDisplayPictures</b>  </a></td><td class="numi">1</td><td>1537218769582</td><td class="numi">834</td></tr><tr class="passedodd"><td><a href="#m7"><b>validateProductEmployeesDisplayPictures</b>  </a></td><td class="numi">1</td><td>1537218770417</td><td class="numi">127</td></tr><tr class="passedodd"><td><a href="#m8"><b>validateRecruitingEmployeesDisplayPictures</b>  </a></td><td class="numi">1</td><td>1537218770545</td><td class="numi">77</td></tr>
+<tr><th colspan="4">Validating Employee Description &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">Branch.ValidateEmployeeDescription</td><td><a href="#m9"><b>validateEmployeeDescriptionIsNotNull</b>  </a></td><td class="numi">1</td><td>1537218783725</td><td class="numi">2236</td></tr>
+<tr><th colspan="4">Validating Alphabetical Order &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="4">Branch.ValidateAlphabeticalOrder</td><td><a href="#m10"><b>validateAllAlphabeticalOrder</b>  </a></td><td class="numi">1</td><td>1537218795854</td><td class="numi">2790</td></tr><tr class="failedodd"><td><a href="#m11"><b>validateEngineeringAlphabeticalOrder</b>  </a></td><td class="numi">1</td><td>1537218798862</td><td class="numi">720</td></tr><tr class="failedodd"><td><a href="#m12"><b>validateMarketingAlphabeticalOrder</b>  </a></td><td class="numi">1</td><td>1537218799585</td><td class="numi">257</td></tr><tr class="failedodd"><td><a href="#m13"><b>validatePartnerGrowthAlphabeticalOrder</b>  </a></td><td class="numi">1</td><td>1537218799959</td><td class="numi">913</td></tr>
+<tr><th colspan="4">Validating Alphabetical Order &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="4">Branch.ValidateAlphabeticalOrder</td><td><a href="#m14"><b>validateDataAlphabeticalOrder</b>  </a></td><td class="numi">1</td><td>1537218798646</td><td class="numi">215</td></tr><tr class="passedodd"><td><a href="#m15"><b>validateOperationsAlphabeticalOrder</b>  </a></td><td class="numi">1</td><td>1537218799843</td><td class="numi">115</td></tr><tr class="passedodd"><td><a href="#m16"><b>validateProductAlphabeticalOrder</b>  </a></td><td class="numi">1</td><td>1537218800874</td><td class="numi">172</td></tr><tr class="passedodd"><td><a href="#m17"><b>validateRecruitingAlphabeticalOrder</b>  </a></td><td class="numi">1</td><td>1537218801047</td><td class="numi">112</td></tr>
+<tr><th colspan="4">Validating Employee Names &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="7">Branch.ValidateEmployeeNames</td><td><a href="#m18"><b>validateDataEmployeeNames</b>  </a></td><td class="numi">1</td><td>1537218810816</td><td class="numi">527</td></tr><tr class="passedodd"><td><a href="#m19"><b>validateEngineeringEmployeeNames</b>  </a></td><td class="numi">1</td><td>1537218811344</td><td class="numi">975</td></tr><tr class="passedodd"><td><a href="#m20"><b>validateMarketingEmployeeNames</b>  </a></td><td class="numi">1</td><td>1537218812320</td><td class="numi">333</td></tr><tr class="passedodd"><td><a href="#m21"><b>validateOperationsEmployeeNames</b>  </a></td><td class="numi">1</td><td>1537218812654</td><td class="numi">270</td></tr><tr class="passedodd"><td><a href="#m22"><b>validatePartnerGrowthEmployeeNames</b>  </a></td><td class="numi">1</td><td>1537218812925</td><td class="numi">989</td></tr><tr class="passedodd"><td><a href="#m23"><b>validateProductEmployeeNames</b>  </a></td><td class="numi">1</td><td>1537218813914</td><td class="numi">214</td></tr><tr class="passedodd"><td><a href="#m24"><b>validateRecruitingEmployeeNames</b>  </a></td><td class="numi">1</td><td>1537218814129</td><td class="numi">190</td></tr>
+<tr><th colspan="4">Validating Number of Employees &#8212; failed (configuration methods)</th></tr>
+<tr class="failedodd"><td rowspan="1">Branch.ValidateNumberOfEmployees</td><td><a href="#m25"><b>teardown</b>  </a></td><td class="numi">1</td><td>1537218823445</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Validating Number of Employees &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">Branch.ValidateNumberOfEmployees</td><td><a href="#m26"><b>validateNoOfEmployees</b>  </a></td><td class="numi">1</td><td>1537218823444</td><td class="numi">1</td></tr>
+<tr><th colspan="4">Validating Employee Departments in different tabs &#8212; failed (configuration methods)</th></tr>
+<tr class="failedodd"><td rowspan="1">Branch.ValidateEmployeeDepartmentsDataConsistency</td><td><a href="#m27"><b>teardown</b>  </a></td><td class="numi">1</td><td>1537218831397</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Validating Employee Departments in different tabs &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="7">Branch.ValidateEmployeeDepartmentsDataConsistency</td><td><a href="#m28"><b>validateDataEmployeeDepartmentsConsistency</b>  </a></td><td class="numi">1</td><td>1537218831388</td><td class="numi">1</td></tr><tr class="failedodd"><td><a href="#m29"><b>validateEngineeringEmployeeDepartmentsConsistency</b>  </a></td><td class="numi">1</td><td>1537218831390</td><td class="numi">0</td></tr><tr class="failedodd"><td><a href="#m30"><b>validateMarketingEmployeeDepartmentsConsistency</b>  </a></td><td class="numi">1</td><td>1537218831391</td><td class="numi">0</td></tr><tr class="failedodd"><td><a href="#m31"><b>validateOperationsEmployeeDepartmentsConsistency</b>  </a></td><td class="numi">1</td><td>1537218831392</td><td class="numi">1</td></tr><tr class="failedodd"><td><a href="#m32"><b>validatePartnerGrowthEmployeeDepartmentsConsistency</b>  </a></td><td class="numi">1</td><td>1537218831394</td><td class="numi">0</td></tr><tr class="failedodd"><td><a href="#m33"><b>validateProductEmployeeDepartmentsConsistency</b>  </a></td><td class="numi">1</td><td>1537218831395</td><td class="numi">0</td></tr><tr class="failedodd"><td><a href="#m34"><b>validateRecruitingEmployeeDepartmentsConsistency</b>  </a></td><td class="numi">1</td><td>1537218831396</td><td class="numi">1</td></tr>
+<tr><th colspan="4">Validating Employee Department Names &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="3">Branch.ValidateEmployeeDepartmentNames</td><td><a href="#m35"><b>validateEngineeringDepartmentNames</b>  </a></td><td class="numi">1</td><td>1537218840158</td><td class="numi">117</td></tr><tr class="failedodd"><td><a href="#m36"><b>validateMarketingDepartmentNames</b>  </a></td><td class="numi">1</td><td>1537218840276</td><td class="numi">122</td></tr><tr class="failedodd"><td><a href="#m37"><b>validatePartnerGrowthDepartmentNames</b>  </a></td><td class="numi">1</td><td>1537218840526</td><td class="numi">122</td></tr>
+<tr><th colspan="4">Validating Employee Department Names &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="4">Branch.ValidateEmployeeDepartmentNames</td><td><a href="#m38"><b>validateDataDepartmentNames</b>  </a></td><td class="numi">1</td><td>1537218839907</td><td class="numi">251</td></tr><tr class="passedodd"><td><a href="#m39"><b>validateOperationsDepartmentNames</b>  </a></td><td class="numi">1</td><td>1537218840399</td><td class="numi">127</td></tr><tr class="passedodd"><td><a href="#m40"><b>validateProductDepartmentNames</b>  </a></td><td class="numi">1</td><td>1537218840649</td><td class="numi">146</td></tr><tr class="passedodd"><td><a href="#m41"><b>validateRecruitingDepartmentNames</b>  </a></td><td class="numi">1</td><td>1537218840796</td><td class="numi">122</td></tr>
+</table>
+<h1>Validating Employee Display Pictures</h1>
+<h2 id="m1">Branch.ValidateEmployeeDisplayPictures:validateOperationsEmployeesDisplayPictures</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">Branch.ValidateEmployeeDisplayPictures:validateDataEmployeesDisplayPictures</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">Branch.ValidateEmployeeDisplayPictures:validateProductEmployeesDisplayPictures</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">Branch.ValidateEmployeeDisplayPictures:validateRecruitingEmployeesDisplayPictures</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">Branch.ValidateEmployeeDisplayPictures:validateEngineeringEmployeesDisplayPictures</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">Branch.ValidateEmployeeDisplayPictures:validateMarketingEmployeesDisplayPictures</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">Branch.ValidateEmployeeDisplayPictures:validateAllEmployeesDisplayPictures</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">Branch.ValidateEmployeeDisplayPictures:validatePartnerGrowthEmployeesDisplayPictures</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Validating Employee Description</h1>
+<h2 id="m9">Branch.ValidateEmployeeDescription:validateEmployeeDescriptionIsNotNull</h2>
+<div style="padding-left:3em">
+<p>Description is missing for some employees. Their Names are printed in the console. expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at Branch.ValidateEmployeeDescription.validateEmployeeDescriptionIsNotNull(ValidateEmployeeDescription.java:75)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Validating Alphabetical Order</h1>
+<h2 id="m10">Branch.ValidateAlphabeticalOrder:validateEngineeringAlphabeticalOrder</h2>
+<div style="padding-left:3em">
+<p>Lists differ at element [0]: AARON LOPEZ != ALEX AUSTIN expected [AARON LOPEZ] but found [ALEX AUSTIN]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertEquals(Assert.java:123)
+<br/>at org.testng.Assert.assertEquals(Assert.java:549)
+<br/>at org.testng.Assert.assertEquals(Assert.java:514)
+<br/>at Branch.ValidateAlphabeticalOrder.validateEngineeringAlphabeticalOrder(ValidateAlphabeticalOrder.java:95)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">Branch.ValidateAlphabeticalOrder:validateMarketingAlphabeticalOrder</h2>
+<div style="padding-left:3em">
+<p>Lists differ at element [0]: ALEX BAUER != MADA SEGHETE expected [ALEX BAUER] but found [MADA SEGHETE]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertEquals(Assert.java:123)
+<br/>at org.testng.Assert.assertEquals(Assert.java:549)
+<br/>at org.testng.Assert.assertEquals(Assert.java:514)
+<br/>at Branch.ValidateAlphabeticalOrder.validateMarketingAlphabeticalOrder(ValidateAlphabeticalOrder.java:109)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">Branch.ValidateAlphabeticalOrder:validateAllAlphabeticalOrder</h2>
+<div style="padding-left:3em">
+<p>Lists differ at element [0]: AARON LOPEZ != ALEX AUSTIN expected [AARON LOPEZ] but found [ALEX AUSTIN]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertEquals(Assert.java:123)
+<br/>at org.testng.Assert.assertEquals(Assert.java:549)
+<br/>at org.testng.Assert.assertEquals(Assert.java:514)
+<br/>at Branch.ValidateAlphabeticalOrder.validateAllAlphabeticalOrder(ValidateAlphabeticalOrder.java:67)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">Branch.ValidateAlphabeticalOrder:validatePartnerGrowthAlphabeticalOrder</h2>
+<div style="padding-left:3em">
+<p>Lists differ at element [0]: ADAM MICHALSKI != MIKE MOLINET expected [ADAM MICHALSKI] but found [MIKE MOLINET]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertEquals(Assert.java:123)
+<br/>at org.testng.Assert.assertEquals(Assert.java:549)
+<br/>at org.testng.Assert.assertEquals(Assert.java:514)
+<br/>at Branch.ValidateAlphabeticalOrder.validatePartnerGrowthAlphabeticalOrder(ValidateAlphabeticalOrder.java:137)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">Branch.ValidateAlphabeticalOrder:validateRecruitingAlphabeticalOrder</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">Branch.ValidateAlphabeticalOrder:validateProductAlphabeticalOrder</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">Branch.ValidateAlphabeticalOrder:validateDataAlphabeticalOrder</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">Branch.ValidateAlphabeticalOrder:validateOperationsAlphabeticalOrder</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Validating Employee Names</h1>
+<h2 id="m18">Branch.ValidateEmployeeNames:validateEngineeringEmployeeNames</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">Branch.ValidateEmployeeNames:validateProductEmployeeNames</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">Branch.ValidateEmployeeNames:validateOperationsEmployeeNames</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m21">Branch.ValidateEmployeeNames:validateRecruitingEmployeeNames</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m22">Branch.ValidateEmployeeNames:validateMarketingEmployeeNames</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m23">Branch.ValidateEmployeeNames:validatePartnerGrowthEmployeeNames</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m24">Branch.ValidateEmployeeNames:validateDataEmployeeNames</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Validating Number of Employees</h1>
+<h2 id="m25">Branch.ValidateNumberOfEmployees:teardown</h2>
+<div style="padding-left:3em">
+<p>null</p>
+Branch.ValidateNumberOfEmployees.teardown(ValidateNumberOfEmployees.java:113)
+<br/>23 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m26">Branch.ValidateNumberOfEmployees:validateNoOfEmployees</h2>
+<div style="padding-left:3em">
+<p>null</p>
+Branch.ValidateNumberOfEmployees.validateNoOfEmployees(ValidateNumberOfEmployees.java:55)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Validating Employee Departments in different tabs</h1>
+<h2 id="m27">Branch.ValidateEmployeeDepartmentsDataConsistency:teardown</h2>
+<div style="padding-left:3em">
+<p>null</p>
+Branch.ValidateEmployeeDepartmentsDataConsistency.teardown(ValidateEmployeeDepartmentsDataConsistency.java:203)
+<br/>23 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m28">Branch.ValidateEmployeeDepartmentsDataConsistency:validateDataEmployeeDepartmentsConsistency</h2>
+<div style="padding-left:3em">
+<p>null</p>
+pageObjects.BranchTeamPage.getAll(BranchTeamPage.java:24)
+<br/>at Branch.ValidateEmployeeDepartmentsDataConsistency.validateDataEmployeeDepartmentsConsistency(ValidateEmployeeDepartmentsDataConsistency.java:62)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m29">Branch.ValidateEmployeeDepartmentsDataConsistency:validateProductEmployeeDepartmentsConsistency</h2>
+<div style="padding-left:3em">
+<p>null</p>
+pageObjects.BranchTeamPage.getAll(BranchTeamPage.java:24)
+<br/>at Branch.ValidateEmployeeDepartmentsDataConsistency.validateProductEmployeeDepartmentsConsistency(ValidateEmployeeDepartmentsDataConsistency.java:163)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m30">Branch.ValidateEmployeeDepartmentsDataConsistency:validatePartnerGrowthEmployeeDepartmentsConsistency</h2>
+<div style="padding-left:3em">
+<p>null</p>
+pageObjects.BranchTeamPage.getAll(BranchTeamPage.java:24)
+<br/>at Branch.ValidateEmployeeDepartmentsDataConsistency.validatePartnerGrowthEmployeeDepartmentsConsistency(ValidateEmployeeDepartmentsDataConsistency.java:142)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m31">Branch.ValidateEmployeeDepartmentsDataConsistency:validateOperationsEmployeeDepartmentsConsistency</h2>
+<div style="padding-left:3em">
+<p>null</p>
+pageObjects.BranchTeamPage.getAll(BranchTeamPage.java:24)
+<br/>at Branch.ValidateEmployeeDepartmentsDataConsistency.validateOperationsEmployeeDepartmentsConsistency(ValidateEmployeeDepartmentsDataConsistency.java:122)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m32">Branch.ValidateEmployeeDepartmentsDataConsistency:validateRecruitingEmployeeDepartmentsConsistency</h2>
+<div style="padding-left:3em">
+<p>null</p>
+pageObjects.BranchTeamPage.getAll(BranchTeamPage.java:24)
+<br/>at Branch.ValidateEmployeeDepartmentsDataConsistency.validateRecruitingEmployeeDepartmentsConsistency(ValidateEmployeeDepartmentsDataConsistency.java:184)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m33">Branch.ValidateEmployeeDepartmentsDataConsistency:validateEngineeringEmployeeDepartmentsConsistency</h2>
+<div style="padding-left:3em">
+<p>null</p>
+pageObjects.BranchTeamPage.getAll(BranchTeamPage.java:24)
+<br/>at Branch.ValidateEmployeeDepartmentsDataConsistency.validateEngineeringEmployeeDepartmentsConsistency(ValidateEmployeeDepartmentsDataConsistency.java:82)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m34">Branch.ValidateEmployeeDepartmentsDataConsistency:validateMarketingEmployeeDepartmentsConsistency</h2>
+<div style="padding-left:3em">
+<p>null</p>
+pageObjects.BranchTeamPage.getAll(BranchTeamPage.java:24)
+<br/>at Branch.ValidateEmployeeDepartmentsDataConsistency.validateMarketingEmployeeDepartmentsConsistency(ValidateEmployeeDepartmentsDataConsistency.java:102)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Validating Employee Department Names</h1>
+<h2 id="m35">Branch.ValidateEmployeeDepartmentNames:validatePartnerGrowthDepartmentNames</h2>
+<div style="padding-left:3em">
+<p>expected [Partner Growth] but found [Co-Founder / COO]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertEquals(Assert.java:123)
+<br/>at org.testng.Assert.assertEquals(Assert.java:176)
+<br/>at org.testng.Assert.assertEquals(Assert.java:186)
+<br/>at Branch.ValidateEmployeeDepartmentNames.validatePartnerGrowthDepartmentNames(ValidateEmployeeDepartmentNames.java:134)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m36">Branch.ValidateEmployeeDepartmentNames:validateMarketingDepartmentNames</h2>
+<div style="padding-left:3em">
+<p>expected [Marketing] but found [Co-Founder / Marketing]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertEquals(Assert.java:123)
+<br/>at org.testng.Assert.assertEquals(Assert.java:176)
+<br/>at org.testng.Assert.assertEquals(Assert.java:186)
+<br/>at Branch.ValidateEmployeeDepartmentNames.validateMarketingDepartmentNames(ValidateEmployeeDepartmentNames.java:98)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m37">Branch.ValidateEmployeeDepartmentNames:validateEngineeringDepartmentNames</h2>
+<div style="padding-left:3em">
+<p>expected [Engineering] but found [Co-Founder / CEO]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertEquals(Assert.java:123)
+<br/>at org.testng.Assert.assertEquals(Assert.java:176)
+<br/>at org.testng.Assert.assertEquals(Assert.java:186)
+<br/>at Branch.ValidateEmployeeDepartmentNames.validateEngineeringDepartmentNames(ValidateEmployeeDepartmentNames.java:80)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m38">Branch.ValidateEmployeeDepartmentNames:validateRecruitingDepartmentNames</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m39">Branch.ValidateEmployeeDepartmentNames:validateOperationsDepartmentNames</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m40">Branch.ValidateEmployeeDepartmentNames:validateDataDepartmentNames</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m41">Branch.ValidateEmployeeDepartmentNames:validateProductDepartmentNames</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

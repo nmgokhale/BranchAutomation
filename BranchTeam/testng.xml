@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Team Page Testing" configfailurepolicy="continue">
+	<listeners>
+		<listener class-name="resources.ExtentReporterNG"/>
+	</listeners>
+  	<test thread-count="5" name="Validating Employee Display Pictures">
+    	<classes>
+      		<class name="Branch.ValidateEmployeeDisplayPictures"/>
+    	</classes>
+  	</test>
+	<test name="Validating Employee Description">
+      	<classes>
+      		<class name="Branch.ValidateEmployeeDescription"/>
+      	</classes>
+	</test>
+      <test name="Validating Alphabetical Order">
+      <classes>
+      	<class name="Branch.ValidateAlphabeticalOrder"/>
+      </classes>
+      </test>
+      <!--  <class name="Branch.AppTest"/> -->
+      <test name="Validating Employee Names">
+      	<classes>
+      		<class name="Branch.ValidateEmployeeNames"/>
+      	</classes>
+      </test>
+      <test name="Validating Number of Employees">
+      	<classes>
+      		<class name="Branch.ValidateNumberOfEmployees"/>
+      	</classes>
+      </test>     
+      <test name="Validating Employee Departments in different tabs">
+      	<classes>
+      		<class name="Branch.ValidateEmployeeDepartmentsDataConsistency"/>
+      	</classes>
+      </test>
+      <test name="Validating Employee Department Names">
+      	<classes>
+			<class name="Branch.ValidateEmployeeDepartmentNames"/> 
+      	</classes>
+      </test>
+</suite> <!-- Suite -->

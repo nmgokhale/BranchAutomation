@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="Branch.ValidateEmployeeNames">
+        <methods>
+          <include name="validateOperationsEmployeeNames"/>
+          <include name="validatePartnerGrowthEmployeeNames"/>
+          <include name="validateProductEmployeeNames"/>
+          <include name="validateEngineeringEmployeeNames"/>
+          <include name="validateDataEmployeeNames"/>
+          <include name="validateMarketingEmployeeNames"/>
+          <include name="validateRecruitingEmployeeNames"/>
+        </methods>
+      </class> <!-- Branch.ValidateEmployeeNames -->
+      <class name="Branch.ValidateEmployeeDescription">
+        <methods>
+          <include name="validateEmployeeDescriptionIsNotNull"/>
+        </methods>
+      </class> <!-- Branch.ValidateEmployeeDescription -->
+      <class name="Branch.ValidateAlphabeticalOrder">
+        <methods>
+          <include name="validateOperationsAlphabeticalOrder"/>
+          <include name="validateAllAlphabeticalOrder"/>
+          <include name="validateDataAlphabeticalOrder"/>
+          <include name="validateRecruitingAlphabeticalOrder"/>
+          <include name="validatePartnerGrowthAlphabeticalOrder"/>
+          <include name="validateProductAlphabeticalOrder"/>
+          <include name="validateMarketingAlphabeticalOrder"/>
+          <include name="initialize"/>
+          <include name="validateEngineeringAlphabeticalOrder"/>
+        </methods>
+      </class> <!-- Branch.ValidateAlphabeticalOrder -->
+      <class name="Branch.ValidateEmployeeDepartmentNames">
+        <methods>
+          <include name="initialize"/>
+          <include name="validateRecruitingDepartmentNames"/>
+          <include name="validateProductDepartmentNames"/>
+          <include name="validateEngineeringDepartmentNames"/>
+          <include name="validatePartnerGrowthDepartmentNames"/>
+          <include name="validateOperationsDepartmentNames"/>
+          <include name="validateDataDepartmentNames"/>
+          <include name="validateMarketingDepartmentNames"/>
+        </methods>
+      </class> <!-- Branch.ValidateEmployeeDepartmentNames -->
+      <class name="Branch.ValidateEmployeeDisplayPictures">
+        <methods>
+          <include name="validateAllEmployeesDisplayPictures"/>
+          <include name="validateRecruitingEmployeesDisplayPictures"/>
+          <include name="validateDataEmployeesDisplayPictures"/>
+          <include name="validateEngineeringEmployeesDisplayPictures"/>
+          <include name="validateOperationsEmployeesDisplayPictures"/>
+          <include name="validateProductEmployeesDisplayPictures"/>
+          <include name="validatePartnerGrowthEmployeesDisplayPictures"/>
+          <include name="validateMarketingEmployeesDisplayPictures"/>
+        </methods>
+      </class> <!-- Branch.ValidateEmployeeDisplayPictures -->
+      <class name="Branch.ValidateNumberOfEmployees">
+        <methods>
+          <include name="validateNoOfEmployees"/>
+        </methods>
+      </class> <!-- Branch.ValidateNumberOfEmployees -->
+      <class name="Branch.ValidateEmployeeDepartmentsDataConsistency">
+        <methods>
+          <include name="validateDataEmployeeDepartmentsConsistency"/>
+          <include name="validatePartnerGrowthEmployeeDepartmentsConsistency"/>
+          <include name="validateRecruitingEmployeeDepartmentsConsistency"/>
+          <include name="initialize"/>
+          <include name="validateProductEmployeeDepartmentsConsistency"/>
+          <include name="validateEngineeringEmployeeDepartmentsConsistency"/>
+          <include name="validateMarketingEmployeeDepartmentsConsistency"/>
+          <include name="validateOperationsEmployeeDepartmentsConsistency"/>
+        </methods>
+      </class> <!-- Branch.ValidateEmployeeDepartmentsDataConsistency -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

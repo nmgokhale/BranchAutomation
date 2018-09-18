@@ -1,0 +1,872 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="16" total="39" passed="23">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Team Page Testing" duration-ms="87093" started-at="2018-09-17T21:12:35Z" finished-at="2018-09-17T21:14:02Z">
+    <groups>
+    </groups>
+    <test name="Validating Employee Display Pictures" duration-ms="16545" started-at="2018-09-17T21:12:35Z" finished-at="2018-09-17T21:12:51Z">
+      <class name="Branch.ValidateEmployeeDisplayPictures">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Branch.ValidateEmployeeDisplayPictures@c038203]" name="initialize" is-config="true" duration-ms="11220" started-at="2018-09-17T16:12:35Z" finished-at="2018-09-17T16:12:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="validateAllEmployeesDisplayPictures()[pri:0, instance:Branch.ValidateEmployeeDisplayPictures@c038203]" name="validateAllEmployeesDisplayPictures" duration-ms="1893" started-at="2018-09-17T16:12:46Z" finished-at="2018-09-17T16:12:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllEmployeesDisplayPictures -->
+        <test-method status="PASS" signature="validateDataEmployeesDisplayPictures()[pri:0, instance:Branch.ValidateEmployeeDisplayPictures@c038203]" name="validateDataEmployeesDisplayPictures" duration-ms="201" started-at="2018-09-17T16:12:48Z" finished-at="2018-09-17T16:12:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDataEmployeesDisplayPictures -->
+        <test-method status="PASS" signature="validateEngineeringEmployeesDisplayPictures()[pri:0, instance:Branch.ValidateEmployeeDisplayPictures@c038203]" name="validateEngineeringEmployeesDisplayPictures" duration-ms="647" started-at="2018-09-17T16:12:48Z" finished-at="2018-09-17T16:12:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateEngineeringEmployeesDisplayPictures -->
+        <test-method status="PASS" signature="validateMarketingEmployeesDisplayPictures()[pri:0, instance:Branch.ValidateEmployeeDisplayPictures@c038203]" name="validateMarketingEmployeesDisplayPictures" duration-ms="232" started-at="2018-09-17T16:12:49Z" finished-at="2018-09-17T16:12:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMarketingEmployeesDisplayPictures -->
+        <test-method status="PASS" signature="validateOperationsEmployeesDisplayPictures()[pri:0, instance:Branch.ValidateEmployeeDisplayPictures@c038203]" name="validateOperationsEmployeesDisplayPictures" duration-ms="125" started-at="2018-09-17T16:12:49Z" finished-at="2018-09-17T16:12:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateOperationsEmployeesDisplayPictures -->
+        <test-method status="PASS" signature="validatePartnerGrowthEmployeesDisplayPictures()[pri:0, instance:Branch.ValidateEmployeeDisplayPictures@c038203]" name="validatePartnerGrowthEmployeesDisplayPictures" duration-ms="834" started-at="2018-09-17T16:12:49Z" finished-at="2018-09-17T16:12:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePartnerGrowthEmployeesDisplayPictures -->
+        <test-method status="PASS" signature="validateProductEmployeesDisplayPictures()[pri:0, instance:Branch.ValidateEmployeeDisplayPictures@c038203]" name="validateProductEmployeesDisplayPictures" duration-ms="127" started-at="2018-09-17T16:12:50Z" finished-at="2018-09-17T16:12:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductEmployeesDisplayPictures -->
+        <test-method status="PASS" signature="validateRecruitingEmployeesDisplayPictures()[pri:0, instance:Branch.ValidateEmployeeDisplayPictures@c038203]" name="validateRecruitingEmployeesDisplayPictures" duration-ms="77" started-at="2018-09-17T16:12:50Z" finished-at="2018-09-17T16:12:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRecruitingEmployeesDisplayPictures -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Branch.ValidateEmployeeDisplayPictures@c038203]" name="teardown" is-config="true" duration-ms="1160" started-at="2018-09-17T16:12:50Z" finished-at="2018-09-17T16:12:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Branch.ValidateEmployeeDisplayPictures -->
+    </test> <!-- Validating Employee Display Pictures -->
+    <test name="Validating Employee Description" duration-ms="15346" started-at="2018-09-17T21:12:51Z" finished-at="2018-09-17T21:13:07Z">
+      <class name="Branch.ValidateEmployeeDescription">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Branch.ValidateEmployeeDescription@5622fdf]" name="initialize" is-config="true" duration-ms="11889" started-at="2018-09-17T16:12:51Z" finished-at="2018-09-17T16:13:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="FAIL" signature="validateEmployeeDescriptionIsNotNull()[pri:0, instance:Branch.ValidateEmployeeDescription@5622fdf]" name="validateEmployeeDescriptionIsNotNull" duration-ms="2236" started-at="2018-09-17T16:13:03Z" finished-at="2018-09-17T16:13:05Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Description is missing for some employees. Their Names are printed in the console. expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Description is missing for some employees. Their Names are printed in the console. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at Branch.ValidateEmployeeDescription.validateEmployeeDescriptionIsNotNull(ValidateEmployeeDescription.java:75)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateEmployeeDescriptionIsNotNull -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Branch.ValidateEmployeeDescription@5622fdf]" name="teardown" is-config="true" duration-ms="1217" started-at="2018-09-17T16:13:05Z" finished-at="2018-09-17T16:13:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Branch.ValidateEmployeeDescription -->
+    </test> <!-- Validating Employee Description -->
+    <test name="Validating Alphabetical Order" duration-ms="15129" started-at="2018-09-17T21:13:07Z" finished-at="2018-09-17T21:13:22Z">
+      <class name="Branch.ValidateAlphabeticalOrder">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Branch.ValidateAlphabeticalOrder@6eebc39e]" name="initialize" is-config="true" duration-ms="8635" started-at="2018-09-17T16:13:07Z" finished-at="2018-09-17T16:13:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="FAIL" signature="validateAllAlphabeticalOrder()[pri:0, instance:Branch.ValidateAlphabeticalOrder@6eebc39e]" name="validateAllAlphabeticalOrder" duration-ms="2790" started-at="2018-09-17T16:13:15Z" finished-at="2018-09-17T16:13:18Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Lists differ at element [0]: AARON LOPEZ != ALEX AUSTIN expected [AARON LOPEZ] but found [ALEX AUSTIN]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Lists differ at element [0]: AARON LOPEZ != ALEX AUSTIN expected [AARON LOPEZ] but found [ALEX AUSTIN]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:549)
+	at org.testng.Assert.assertEquals(Assert.java:514)
+	at Branch.ValidateAlphabeticalOrder.validateAllAlphabeticalOrder(ValidateAlphabeticalOrder.java:67)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllAlphabeticalOrder -->
+        <test-method status="PASS" signature="validateDataAlphabeticalOrder()[pri:0, instance:Branch.ValidateAlphabeticalOrder@6eebc39e]" name="validateDataAlphabeticalOrder" duration-ms="215" started-at="2018-09-17T16:13:18Z" finished-at="2018-09-17T16:13:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDataAlphabeticalOrder -->
+        <test-method status="FAIL" signature="validateEngineeringAlphabeticalOrder()[pri:0, instance:Branch.ValidateAlphabeticalOrder@6eebc39e]" name="validateEngineeringAlphabeticalOrder" duration-ms="720" started-at="2018-09-17T16:13:18Z" finished-at="2018-09-17T16:13:19Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Lists differ at element [0]: AARON LOPEZ != ALEX AUSTIN expected [AARON LOPEZ] but found [ALEX AUSTIN]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Lists differ at element [0]: AARON LOPEZ != ALEX AUSTIN expected [AARON LOPEZ] but found [ALEX AUSTIN]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:549)
+	at org.testng.Assert.assertEquals(Assert.java:514)
+	at Branch.ValidateAlphabeticalOrder.validateEngineeringAlphabeticalOrder(ValidateAlphabeticalOrder.java:95)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateEngineeringAlphabeticalOrder -->
+        <test-method status="FAIL" signature="validateMarketingAlphabeticalOrder()[pri:0, instance:Branch.ValidateAlphabeticalOrder@6eebc39e]" name="validateMarketingAlphabeticalOrder" duration-ms="257" started-at="2018-09-17T16:13:19Z" finished-at="2018-09-17T16:13:19Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Lists differ at element [0]: ALEX BAUER != MADA SEGHETE expected [ALEX BAUER] but found [MADA SEGHETE]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Lists differ at element [0]: ALEX BAUER != MADA SEGHETE expected [ALEX BAUER] but found [MADA SEGHETE]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:549)
+	at org.testng.Assert.assertEquals(Assert.java:514)
+	at Branch.ValidateAlphabeticalOrder.validateMarketingAlphabeticalOrder(ValidateAlphabeticalOrder.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMarketingAlphabeticalOrder -->
+        <test-method status="PASS" signature="validateOperationsAlphabeticalOrder()[pri:0, instance:Branch.ValidateAlphabeticalOrder@6eebc39e]" name="validateOperationsAlphabeticalOrder" duration-ms="115" started-at="2018-09-17T16:13:19Z" finished-at="2018-09-17T16:13:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateOperationsAlphabeticalOrder -->
+        <test-method status="FAIL" signature="validatePartnerGrowthAlphabeticalOrder()[pri:0, instance:Branch.ValidateAlphabeticalOrder@6eebc39e]" name="validatePartnerGrowthAlphabeticalOrder" duration-ms="913" started-at="2018-09-17T16:13:19Z" finished-at="2018-09-17T16:13:20Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Lists differ at element [0]: ADAM MICHALSKI != MIKE MOLINET expected [ADAM MICHALSKI] but found [MIKE MOLINET]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Lists differ at element [0]: ADAM MICHALSKI != MIKE MOLINET expected [ADAM MICHALSKI] but found [MIKE MOLINET]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:549)
+	at org.testng.Assert.assertEquals(Assert.java:514)
+	at Branch.ValidateAlphabeticalOrder.validatePartnerGrowthAlphabeticalOrder(ValidateAlphabeticalOrder.java:137)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePartnerGrowthAlphabeticalOrder -->
+        <test-method status="PASS" signature="validateProductAlphabeticalOrder()[pri:0, instance:Branch.ValidateAlphabeticalOrder@6eebc39e]" name="validateProductAlphabeticalOrder" duration-ms="172" started-at="2018-09-17T16:13:20Z" finished-at="2018-09-17T16:13:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductAlphabeticalOrder -->
+        <test-method status="PASS" signature="validateRecruitingAlphabeticalOrder()[pri:0, instance:Branch.ValidateAlphabeticalOrder@6eebc39e]" name="validateRecruitingAlphabeticalOrder" duration-ms="112" started-at="2018-09-17T16:13:21Z" finished-at="2018-09-17T16:13:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRecruitingAlphabeticalOrder -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Branch.ValidateAlphabeticalOrder@6eebc39e]" name="teardown" is-config="true" duration-ms="1188" started-at="2018-09-17T16:13:21Z" finished-at="2018-09-17T16:13:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Branch.ValidateAlphabeticalOrder -->
+    </test> <!-- Validating Alphabetical Order -->
+    <test name="Validating Employee Names" duration-ms="13200" started-at="2018-09-17T21:13:22Z" finished-at="2018-09-17T21:13:35Z">
+      <class name="Branch.ValidateEmployeeNames">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Branch.ValidateEmployeeNames@598067a5]" name="initialize" is-config="true" duration-ms="8430" started-at="2018-09-17T16:13:22Z" finished-at="2018-09-17T16:13:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="validateDataEmployeeNames()[pri:0, instance:Branch.ValidateEmployeeNames@598067a5]" name="validateDataEmployeeNames" duration-ms="527" started-at="2018-09-17T16:13:30Z" finished-at="2018-09-17T16:13:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDataEmployeeNames -->
+        <test-method status="PASS" signature="validateEngineeringEmployeeNames()[pri:0, instance:Branch.ValidateEmployeeNames@598067a5]" name="validateEngineeringEmployeeNames" duration-ms="975" started-at="2018-09-17T16:13:31Z" finished-at="2018-09-17T16:13:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateEngineeringEmployeeNames -->
+        <test-method status="PASS" signature="validateMarketingEmployeeNames()[pri:0, instance:Branch.ValidateEmployeeNames@598067a5]" name="validateMarketingEmployeeNames" duration-ms="333" started-at="2018-09-17T16:13:32Z" finished-at="2018-09-17T16:13:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMarketingEmployeeNames -->
+        <test-method status="PASS" signature="validateOperationsEmployeeNames()[pri:0, instance:Branch.ValidateEmployeeNames@598067a5]" name="validateOperationsEmployeeNames" duration-ms="270" started-at="2018-09-17T16:13:32Z" finished-at="2018-09-17T16:13:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateOperationsEmployeeNames -->
+        <test-method status="PASS" signature="validatePartnerGrowthEmployeeNames()[pri:0, instance:Branch.ValidateEmployeeNames@598067a5]" name="validatePartnerGrowthEmployeeNames" duration-ms="989" started-at="2018-09-17T16:13:32Z" finished-at="2018-09-17T16:13:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePartnerGrowthEmployeeNames -->
+        <test-method status="PASS" signature="validateProductEmployeeNames()[pri:0, instance:Branch.ValidateEmployeeNames@598067a5]" name="validateProductEmployeeNames" duration-ms="214" started-at="2018-09-17T16:13:33Z" finished-at="2018-09-17T16:13:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductEmployeeNames -->
+        <test-method status="PASS" signature="validateRecruitingEmployeeNames()[pri:0, instance:Branch.ValidateEmployeeNames@598067a5]" name="validateRecruitingEmployeeNames" duration-ms="190" started-at="2018-09-17T16:13:34Z" finished-at="2018-09-17T16:13:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRecruitingEmployeeNames -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Branch.ValidateEmployeeNames@598067a5]" name="teardown" is-config="true" duration-ms="1258" started-at="2018-09-17T16:13:34Z" finished-at="2018-09-17T16:13:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Branch.ValidateEmployeeNames -->
+    </test> <!-- Validating Employee Names -->
+    <test name="Validating Number of Employees" duration-ms="7843" started-at="2018-09-17T21:13:35Z" finished-at="2018-09-17T21:13:43Z">
+      <class name="Branch.ValidateNumberOfEmployees">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Branch.ValidateNumberOfEmployees@42dafa95]" name="initialize" is-config="true" duration-ms="7841" started-at="2018-09-17T16:13:35Z" finished-at="2018-09-17T16:13:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="FAIL" signature="validateNoOfEmployees()[pri:0, instance:Branch.ValidateNumberOfEmployees@42dafa95]" name="validateNoOfEmployees" duration-ms="1" started-at="2018-09-17T16:13:43Z" finished-at="2018-09-17T16:13:43Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Branch.ValidateNumberOfEmployees.validateNoOfEmployees(ValidateNumberOfEmployees.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNoOfEmployees -->
+        <test-method status="FAIL" signature="teardown()[pri:0, instance:Branch.ValidateNumberOfEmployees@42dafa95]" name="teardown" is-config="true" duration-ms="0" started-at="2018-09-17T16:13:43Z" finished-at="2018-09-17T16:13:43Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Branch.ValidateNumberOfEmployees.teardown(ValidateNumberOfEmployees.java:113)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.afterRun(TestRunner.java:1021)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Branch.ValidateNumberOfEmployees -->
+    </test> <!-- Validating Number of Employees -->
+    <test name="Validating Employee Departments in different tabs" duration-ms="7929" started-at="2018-09-17T21:13:43Z" finished-at="2018-09-17T21:13:51Z">
+      <class name="Branch.ValidateEmployeeDepartmentsDataConsistency">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Branch.ValidateEmployeeDepartmentsDataConsistency@7085bdee]" name="initialize" is-config="true" duration-ms="7918" started-at="2018-09-17T16:13:43Z" finished-at="2018-09-17T16:13:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="FAIL" signature="validateDataEmployeeDepartmentsConsistency()[pri:0, instance:Branch.ValidateEmployeeDepartmentsDataConsistency@7085bdee]" name="validateDataEmployeeDepartmentsConsistency" duration-ms="1" started-at="2018-09-17T16:13:51Z" finished-at="2018-09-17T16:13:51Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at pageObjects.BranchTeamPage.getAll(BranchTeamPage.java:24)
+	at Branch.ValidateEmployeeDepartmentsDataConsistency.validateDataEmployeeDepartmentsConsistency(ValidateEmployeeDepartmentsDataConsistency.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDataEmployeeDepartmentsConsistency -->
+        <test-method status="FAIL" signature="validateEngineeringEmployeeDepartmentsConsistency()[pri:0, instance:Branch.ValidateEmployeeDepartmentsDataConsistency@7085bdee]" name="validateEngineeringEmployeeDepartmentsConsistency" duration-ms="0" started-at="2018-09-17T16:13:51Z" finished-at="2018-09-17T16:13:51Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at pageObjects.BranchTeamPage.getAll(BranchTeamPage.java:24)
+	at Branch.ValidateEmployeeDepartmentsDataConsistency.validateEngineeringEmployeeDepartmentsConsistency(ValidateEmployeeDepartmentsDataConsistency.java:82)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateEngineeringEmployeeDepartmentsConsistency -->
+        <test-method status="FAIL" signature="validateMarketingEmployeeDepartmentsConsistency()[pri:0, instance:Branch.ValidateEmployeeDepartmentsDataConsistency@7085bdee]" name="validateMarketingEmployeeDepartmentsConsistency" duration-ms="0" started-at="2018-09-17T16:13:51Z" finished-at="2018-09-17T16:13:51Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at pageObjects.BranchTeamPage.getAll(BranchTeamPage.java:24)
+	at Branch.ValidateEmployeeDepartmentsDataConsistency.validateMarketingEmployeeDepartmentsConsistency(ValidateEmployeeDepartmentsDataConsistency.java:102)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMarketingEmployeeDepartmentsConsistency -->
+        <test-method status="FAIL" signature="validateOperationsEmployeeDepartmentsConsistency()[pri:0, instance:Branch.ValidateEmployeeDepartmentsDataConsistency@7085bdee]" name="validateOperationsEmployeeDepartmentsConsistency" duration-ms="1" started-at="2018-09-17T16:13:51Z" finished-at="2018-09-17T16:13:51Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at pageObjects.BranchTeamPage.getAll(BranchTeamPage.java:24)
+	at Branch.ValidateEmployeeDepartmentsDataConsistency.validateOperationsEmployeeDepartmentsConsistency(ValidateEmployeeDepartmentsDataConsistency.java:122)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateOperationsEmployeeDepartmentsConsistency -->
+        <test-method status="FAIL" signature="validatePartnerGrowthEmployeeDepartmentsConsistency()[pri:0, instance:Branch.ValidateEmployeeDepartmentsDataConsistency@7085bdee]" name="validatePartnerGrowthEmployeeDepartmentsConsistency" duration-ms="0" started-at="2018-09-17T16:13:51Z" finished-at="2018-09-17T16:13:51Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at pageObjects.BranchTeamPage.getAll(BranchTeamPage.java:24)
+	at Branch.ValidateEmployeeDepartmentsDataConsistency.validatePartnerGrowthEmployeeDepartmentsConsistency(ValidateEmployeeDepartmentsDataConsistency.java:142)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePartnerGrowthEmployeeDepartmentsConsistency -->
+        <test-method status="FAIL" signature="validateProductEmployeeDepartmentsConsistency()[pri:0, instance:Branch.ValidateEmployeeDepartmentsDataConsistency@7085bdee]" name="validateProductEmployeeDepartmentsConsistency" duration-ms="0" started-at="2018-09-17T16:13:51Z" finished-at="2018-09-17T16:13:51Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at pageObjects.BranchTeamPage.getAll(BranchTeamPage.java:24)
+	at Branch.ValidateEmployeeDepartmentsDataConsistency.validateProductEmployeeDepartmentsConsistency(ValidateEmployeeDepartmentsDataConsistency.java:163)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductEmployeeDepartmentsConsistency -->
+        <test-method status="FAIL" signature="validateRecruitingEmployeeDepartmentsConsistency()[pri:0, instance:Branch.ValidateEmployeeDepartmentsDataConsistency@7085bdee]" name="validateRecruitingEmployeeDepartmentsConsistency" duration-ms="1" started-at="2018-09-17T16:13:51Z" finished-at="2018-09-17T16:13:51Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at pageObjects.BranchTeamPage.getAll(BranchTeamPage.java:24)
+	at Branch.ValidateEmployeeDepartmentsDataConsistency.validateRecruitingEmployeeDepartmentsConsistency(ValidateEmployeeDepartmentsDataConsistency.java:184)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRecruitingEmployeeDepartmentsConsistency -->
+        <test-method status="FAIL" signature="teardown()[pri:0, instance:Branch.ValidateEmployeeDepartmentsDataConsistency@7085bdee]" name="teardown" is-config="true" duration-ms="0" started-at="2018-09-17T16:13:51Z" finished-at="2018-09-17T16:13:51Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Branch.ValidateEmployeeDepartmentsDataConsistency.teardown(ValidateEmployeeDepartmentsDataConsistency.java:203)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.afterRun(TestRunner.java:1021)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Branch.ValidateEmployeeDepartmentsDataConsistency -->
+    </test> <!-- Validating Employee Departments in different tabs -->
+    <test name="Validating Employee Department Names" duration-ms="10905" started-at="2018-09-17T21:13:51Z" finished-at="2018-09-17T21:14:02Z">
+      <class name="Branch.ValidateEmployeeDepartmentNames">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Branch.ValidateEmployeeDepartmentNames@3f49dace]" name="initialize" is-config="true" duration-ms="8478" started-at="2018-09-17T16:13:51Z" finished-at="2018-09-17T16:13:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="validateDataDepartmentNames()[pri:0, instance:Branch.ValidateEmployeeDepartmentNames@3f49dace]" name="validateDataDepartmentNames" duration-ms="251" started-at="2018-09-17T16:13:59Z" finished-at="2018-09-17T16:14:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDataDepartmentNames -->
+        <test-method status="FAIL" signature="validateEngineeringDepartmentNames()[pri:0, instance:Branch.ValidateEmployeeDepartmentNames@3f49dace]" name="validateEngineeringDepartmentNames" duration-ms="117" started-at="2018-09-17T16:14:00Z" finished-at="2018-09-17T16:14:00Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Engineering] but found [Co-Founder / CEO]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Engineering] but found [Co-Founder / CEO]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at Branch.ValidateEmployeeDepartmentNames.validateEngineeringDepartmentNames(ValidateEmployeeDepartmentNames.java:80)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateEngineeringDepartmentNames -->
+        <test-method status="FAIL" signature="validateMarketingDepartmentNames()[pri:0, instance:Branch.ValidateEmployeeDepartmentNames@3f49dace]" name="validateMarketingDepartmentNames" duration-ms="122" started-at="2018-09-17T16:14:00Z" finished-at="2018-09-17T16:14:00Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Marketing] but found [Co-Founder / Marketing]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Marketing] but found [Co-Founder / Marketing]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at Branch.ValidateEmployeeDepartmentNames.validateMarketingDepartmentNames(ValidateEmployeeDepartmentNames.java:98)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMarketingDepartmentNames -->
+        <test-method status="PASS" signature="validateOperationsDepartmentNames()[pri:0, instance:Branch.ValidateEmployeeDepartmentNames@3f49dace]" name="validateOperationsDepartmentNames" duration-ms="127" started-at="2018-09-17T16:14:00Z" finished-at="2018-09-17T16:14:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateOperationsDepartmentNames -->
+        <test-method status="FAIL" signature="validatePartnerGrowthDepartmentNames()[pri:0, instance:Branch.ValidateEmployeeDepartmentNames@3f49dace]" name="validatePartnerGrowthDepartmentNames" duration-ms="122" started-at="2018-09-17T16:14:00Z" finished-at="2018-09-17T16:14:00Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Partner Growth] but found [Co-Founder / COO]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Partner Growth] but found [Co-Founder / COO]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at Branch.ValidateEmployeeDepartmentNames.validatePartnerGrowthDepartmentNames(ValidateEmployeeDepartmentNames.java:134)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePartnerGrowthDepartmentNames -->
+        <test-method status="PASS" signature="validateProductDepartmentNames()[pri:0, instance:Branch.ValidateEmployeeDepartmentNames@3f49dace]" name="validateProductDepartmentNames" duration-ms="146" started-at="2018-09-17T16:14:00Z" finished-at="2018-09-17T16:14:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductDepartmentNames -->
+        <test-method status="PASS" signature="validateRecruitingDepartmentNames()[pri:0, instance:Branch.ValidateEmployeeDepartmentNames@3f49dace]" name="validateRecruitingDepartmentNames" duration-ms="122" started-at="2018-09-17T16:14:00Z" finished-at="2018-09-17T16:14:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRecruitingDepartmentNames -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Branch.ValidateEmployeeDepartmentNames@3f49dace]" name="teardown" is-config="true" duration-ms="1414" started-at="2018-09-17T16:14:00Z" finished-at="2018-09-17T16:14:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Branch.ValidateEmployeeDepartmentNames -->
+    </test> <!-- Validating Employee Department Names -->
+  </suite> <!-- Team Page Testing -->
+</testng-results>
